@@ -1,0 +1,70 @@
+!SESSION 2020-06-05 09:35:14.471 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2020-06-05 09:35:31.951
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-05 09:35:31.951
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,サーバーでデバッグ,
+		サーバー上の現在の選択をデバッグ,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ce19728,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.debug,RAP アプリケーションのデバッグ,
+		RAP アプリケーションのデバッグ,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e8ae251,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-05 09:35:31.951
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,サーバーで実行,
+		サーバー上の現在の選択を実行,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3af9434f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.run,RAP アプリケーションの実行,
+		RAP アプリケーションの実行,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42b215c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-05 09:35:31.951
+!MESSAGE ALT+CTRL+T の競合が発生しました:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39b41fad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,プロパティーの表示,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@608bb473,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2020-06-05 09:35:38.154
+!MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-06-05 09:36:17.856
+!MESSAGE Status ERROR: org.eclipse.equinox.p2.discovery code=0 Failed to discover all connectors. null children=[Status ERROR: org.eclipse.equinox.p2.discovery code=0 M2ERemoteBundleDiscoveryStrategy failed with an error org.eclipse.equinox.p2.core.ProvisionException: HTTP サーバー 'サービスが利用不可': http://download.eclipse.org/technology/m2e/discovery/directory-1.4.xml]
